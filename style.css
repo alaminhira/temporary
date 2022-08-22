@@ -1,0 +1,23 @@
+#header-cup {
+    position: absolute;
+    bottom: 3rem;
+    left: -12rem;
+    transform: rotate(45deg);
+    filter: grayscale(1) opacity(.2);
+}
+
+/* .card-stats {
+    position: relative;
+}
+
+.card-stats::before {
+    content: '';
+    position: absolute;
+    width: .4rem;
+    height: .4rem;
+    background: #fff;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */

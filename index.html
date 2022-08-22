@@ -6,20 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Five Legendary Footballers of Football Universe</title>
+    <!-- Tailwind Script -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- Header -->
-    <header id="header">
-        <div>
-            <h1><span>Five</span>Legendary Players of Football Universe</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt itaque consequatur sequi, mollitia
-                blanditiis eveniet.</p>
-        </div>
-        <div>
-            <img src="images/hero.png" alt="Hero Image">
+    <header id="header" class="bg-slate-700 py-10 text-white relative">
+        <img id="header-cup" src="images/cup.png" alt="">
+        <div class="container w-10/12 mx-auto flex items-center">
+            <div class="mr-7 flex-1">
+                <h1 class="text-5xl font-semibold mb-5"><span
+                        class="block text-9xl text-yellow-400 mb-5">Five</span>Legendary
+                    Players of Football
+                    Universe
+                </h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt itaque consequatur sequi, mollitia
+                    blanditiis eveniet.</p>
+            </div>
+            <div class="flex-1">
+                <img src="images/hero.png" alt="Hero Image">
+            </div>
         </div>
     </header>
+    <!-- Main Section -->
+    <main class="grid grid-cols-10 gap-4 bg-slate-500 py-10">
+        <section class="col-span-8">
+            <div class="container w-10/12 mx-auto">
+                <div class="grid grid-cols-3 gap-5">
+                    <!-- Player card -->
+                    <div class="card bg-slate-800 text-center">
+                        <img src="images/player-1.jpg" alt="">
+                        <div class="p-5">
+                            <h3 class="text-white text-2xl font-bold">Leonal Messi</h3>
+                            <div
+                                class="text-white opacity-80 flex justify-between items-center w-9/12 mx-auto mt-2 mb-5">
+                                <h4>35 Goals</h4>
+                                <span class="w-1 h-1 bg-white rounded-full"></span>
+                                <h4>120 Assist</h4>
+                            </div>
+                            <button
+                                class="bg-yellow-600 text-white uppercase px-8 w-full font-semibold py-2">Select</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside></aside>
+    </main>
 </body>
 
 </html>
