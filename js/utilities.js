@@ -1,6 +1,7 @@
 // Get any element by id through function
-function _(el) {
+function select(el) {
     return document.getElementById(el);
 }
 
+// Global Variable
 let selectedPlayer = 0;
